@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Remove these lines for Vercel:
+  // output: 'export',
+  // trailingSlash: true,
+  // distDir: 'out',
+  
   reactStrictMode: true,
   poweredByHeader: false,
   compress: true,
